@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU Mini Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Kalkulator Matematika Segitiga</h1>
+    </header>
+    <section>
+       <h3> LUAS SEGITIGA </h3>
+       <div class="image-container">
+        <img src="https://awsimages.detik.net.id/community/media/visual/2022/09/28/segitiga-siku-siku.jpeg?w=1200" alt="segitiga">
+       </div>
+    
+       <h4>
+        Rumus Luas Segitiga = 1/2 x a x t & Rumus Keliling Segitiga = s x s x s
+       </h4>
+       <h4>
+        Keterangan :
+       </h4>
+       <h4>   a = Alas t = tinggi  s = Sisi    </h4>
+     
+    </section>
+    <footer>
+        <h2>Menghitung Luas Segitiga :</h2> <br>
+        <form>
+    <label for="alas">Alas</label>
+    <input type="number" id="side1" step="any"><br><br>
+    
+    <label for="tinggi">Tinggi</label>
+    <input type="number" id="side2" step="any"><br><br>
+    
+    <button onclick="calculate()">Hitung</button>
+    <input type="number "id="result">
+        </form>  
+    </footer>
+    <br><br><br><br>
+    <nav>
+        <h2>Menghitung Keliling Segitiga :</h2>
+        <form>
+    <label for="side1">Sisi A: </label>
+    <input type="number" id="side1" step="any"><br><br>
+    
+    <label for="side2">Sisi B: </label>
+    <input type="number" id="side2" step="any"><br><br>
+    
+    <label for="side3">Sisi C: </label>
+    <input type="number" id="side3" step="any"><br><br>
+
+    <button onclick="calculate()">Hitung</button>
+    <input type="number "id="result">
+        </form>
+    </nav>
+    
+</body>
+
+</html>
